@@ -16,7 +16,7 @@ import time
 
 def sendheartBeat(subsystemName, subsystemInstanceId) : 
 
-    kafkaIp = "10.2.133.16"
+    kafkaIp = "localhost"
     kafkaPortNo = "9092"
     kafkaTopicName='heartbeatMonitoring'
     
@@ -29,5 +29,7 @@ def sendheartBeat(subsystemName, subsystemInstanceId) :
         
         producer.send(kafkaTopicName, json.dumps(message).encode('utf-8'))
         
-        sleep(60)
-        
+        sleep(30)
+
+#for testing purposes
+sendheartBeat('deployer3', '600') #comment out in actual implementation

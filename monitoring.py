@@ -4,10 +4,12 @@ import threading
 import time
 from time import sleep 
 import logging
+import global_file
+import sys
 
 
 ##########    VARIABLE DECLARATIONS    ##########
-
+dict={}
 
 # If the time since the last message received by service is > notifyTime then we'll send a message to the platform Admin via the notification service.
 notifyTime = 150
@@ -16,7 +18,7 @@ notifyTime = 150
 killTime = 300
 
 # To connect to the kafka stream
-kafkaIp = "10.2.133.16"
+kafkaIp = "localhost"
 kafkaPortNo = "9092"
 kafkaTopicName = "heartbeatMonitoring"
 kafkaGroupId = "Monitoring"
@@ -25,42 +27,42 @@ kafkaGroupId = "Monitoring"
 logFile = "Monitoring.log"
 logging.basicConfig(level=logging.WARNING, filename=logFile, filemode='w', format='%(asctime)s - [%(levelname)s] - %(filename)s:%(funcName)s:%(lineno)d - %(message)s')
 
-# JsonFile for currently active Services
-currentActiveServices = "activeServices.json"
-
-
 ##########    THREAD FUNCTION IMPLEMENTATION    ##########
 
+def mongo_update():
+    #function for updating mongo entries using dict
+    #DO: update the mango db after connecting
+    print("trying to update mongo")
+    
 
-# Bad Code : Use custom made heap O(logn) or use One thread per monitoring entity. 
 
-def findFault ():
-
+def isalive():
     while(True) :
-        
-        # Fetching all the data from activeServices to see if any of them have been inactive uptill notifyTime or killTime
-        jsonFile = open(currentActiveServices, 'r')    
-        activeServices = json.load(jsonFile)
-        jsonFile.close()
+        sleep(5)
+        mongo_update()
+        if(int(sys.argv[1])==global_file.globe):
+            dict2={}
+            #DO: copy data from mongo db into a dictionary 'dict2'
+            currentTime = time.time()
+            for k,vals in dict2.items():
+                vals=float(vals)
+                diff=currentTime-vals
+                if diff>=15 and diff<30:
+                    logging.error('The subsystem with instance id = {} has been inactive since a long time'.format(k))
+                    print('time to notify the platform admin')
+                if vals-currentTime>=45:
+                    logging.critical('The subsystem with instance id = {} needs to be killed'.format(k))
+                    print('time to notify kill the instance')
+                    #DO: delete the entry from mongo db
+            if int(sys.argv[1])==1:
+                global_file.globe=2
+            else:
+                global_file.globe=1
 
-        for services in activeServices['activeServices'] : 
-            if abs(time.time()-services['timestamp']) > notifyTime :
-                logging.error('The subsystem : {} having instance id : {} has been inactive since a long time'.format(services['subsystemName'], services['instanceId']))
-                # Use notification service to infrom platform admin that a particular service hasn't responded for a while
-            
-            if abs(time.time()-services['timestamp']) > killTime :
-                logging.critical('The subsystem : {} having instance id : {} has been assumed to have an error'.format(services['subsystemName'], services['instanceId']))
-                # Send msg to fault tolerance subsystem that this instance isn't working and need to be dealth with.
-            
-            print(time.time())
-            # print(services['timestamp'])
-            # print(abs(time.time()-services['timestamp']))
-
-        sleep(60)
 
 
 
-t = threading.Thread(target = findFault, args=[])
+t = threading.Thread(target = isalive, args=[])
 t.start()
 
 
@@ -72,32 +74,10 @@ consumer = KafkaConsumer(kafkaTopicName, group_id=kafkaGroupId, bootstrap_server
 
 for message in consumer:
     messageContents = message.value.decode('UTF-8').split(':')
+    messageContents[0] = messageContents[0][1:]
+    messageContents[2] = messageContents[2][:-1]
+    key=f'{messageContents[0]}:{messageContents[1]}'
+    dict[key]=messageContents[2]
+    logging.info('The subsystem = {} with instance id = {} has a new entry'.format(messageContents[0],messageContents[1],messageContents[2]))
+    print(dict)
 
-    # Checking the current activeServices file to monitor all the currently active services. 
-    jsonFile = open('activeServices.json', 'r')    
-    activeServices = json.load(jsonFile)
-    jsonFile.close()
-
-
-    flag = False # To check if the current service is present in our activerServices.json file.
-
-
-    # Updating old timestamp if service is present.
-    for services in activeServices['activeServices'] : 
-        if messageContents[0] == services['subsystemName'] and messageContents[1] == services['instanceId']:
-            flag = True
-            if services['timestamp'] < messageContents[2] :
-                services['timestamp'] = messageContents[2]
-                logging.warning('UPDATE : Subsystem : {}, Instance Id : {}, TimeStamp : {}'.format(services['subsystemName'], services['instanceId'], services['timestamp']))
-            break
-        
-    # Incase service is not present, we add its data to our dictionary of activeServices. 
-    if flag == False : 
-        newService = { "subsystemName" : messageContents[0], "instanceId" : int(messageContents[1]), "timestamp" : float(messageContents[2])}
-        activeServices['activeServices'].append(newService)
-        logging.warning('NEW ENTRY : Subsystem : {}, Instance Id : {}, TimeStamp : {}'.format(newService['subsystemName'], newService['instanceId'], newService['timestamp']))
-        
-
-    # Editing json file containing all the data about the activeServices.
-    with open("activeServices.json", "w") as write_file :
-        json.dump(activeServices, write_file, indent=4)  
