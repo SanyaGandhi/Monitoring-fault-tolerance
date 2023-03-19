@@ -83,13 +83,13 @@ def mongo_update():
 
     # Iterate over new values and update if they are greater than the old ones
     for key, value in result.items():
-        if key in old_values and value > old_values[key]:
-            mycol.update_one({'_id': old_values['_id']}, {'$set': {key: value}})
+        if key in old_doc and value > old_doc[key]:
+            mycol.update_one({'_id': old_doc['_id']}, {'$set': {key: value}})
         else:
             old_doc[key] = value
 
     # Check if there are any new key-value pairs in result that were not in old_values
-    new_pairs = set(result.items()) - set(old_values.items())
+    new_pairs = set(result.items()) - set(old_doc.items())
     if new_pairs:
         # Add new key-value pairs to old_doc
         for key, value in new_pairs:
@@ -111,15 +111,25 @@ def isalive():
             #DO: copy data from mongo db into a dictionary 'dict2'
             currentTime = time.time()
             for k,vals in dict2.items():
-                vals=float(vals)
-                diff=currentTime-vals
-                if diff>=15 and diff<30:
-                    logging.error('The subsystem with instance id = {} has been inactive since a long time'.format(k))
-                    print('time to notify the platform admin')
-                if vals-currentTime>=45:
-                    logging.critical('The subsystem with instance id = {} needs to be killed'.format(k))
-                    print('time to notify kill the instance')
-                    #DO: delete the entry from mongo db
+                #_id also created when we first time update
+                '''Performing an update on the path '_id'
+                  would modify the immutable field '_id', 
+                  full error: {'index': 0, 'code': 66, 'errmsg':
+                    "Performing an update on the path '_id'
+                      would modify the immutable field '_id'"}
+                '''
+                if k != '_id': ##for ignoring above error
+                    vals=float(vals)
+                    diff=currentTime-vals
+                    if diff>=15 and diff<30:
+                        logging.error('The subsystem with instance id = {} has been inactive since a long time'.format(k))
+                        print('time to notify the platform admin')
+                    if vals-currentTime>=45:
+                        logging.critical('The subsystem with instance id = {} needs to be killed'.format(k))
+                        print('time to notify kill the instance')
+                        #DO: delete the entry from mongo db
+                        mycol.update_one({"_id": dict2["_id"]}, {"$unset": {k: ""}})
+
             if int(sys.argv[1])==1:
                 global_file.globe=2
             else:
