@@ -9,7 +9,7 @@ import sys
 from pprint import pprint
 
 
-########### for mongodatabase ##########
+########### for mongodatabase ############################
 import pymongo
 import json
 from pymongo import MongoClient
@@ -23,7 +23,7 @@ mydb = client["IAS_PROJECT"]
 
 # create a new collection called 'mycollection' in the 'mydatabase' database
 mycol = mydb["Monitoring"]
-###########################################333
+##########################################################
 
 
 ##########    VARIABLE DECLARATIONS    ##########
@@ -106,7 +106,8 @@ def isalive():
         sleep(5)
         mongo_update()
         if(int(sys.argv[1])==global_file.globe):
-            dict2={}
+            #***********************************************88
+            dict2 = mycol.find_one()
             #DO: copy data from mongo db into a dictionary 'dict2'
             currentTime = time.time()
             for k,vals in dict2.items():
