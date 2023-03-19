@@ -6,6 +6,24 @@ from time import sleep
 import logging
 import global_file
 import sys
+from pprint import pprint
+
+
+########### for mongodatabase ##########
+import pymongo
+import json
+from pymongo import MongoClient
+
+#connect to python applicaiton
+client = pymongo.MongoClient("mongodb+srv://test:test@cluster0.xcykxcz.mongodb.net/?retryWrites=true&w=majority")
+db = client.test
+# create a new database called 'mydatabase'
+mydb = client["IAS_PROJECT"]
+# i have created  it explicitly
+
+# create a new collection called 'mycollection' in the 'mydatabase' database
+mycol = mydb["Monitoring"]
+###########################################333
 
 
 ##########    VARIABLE DECLARATIONS    ##########
@@ -32,6 +50,53 @@ logging.basicConfig(level=logging.WARNING, filename=logFile, filemode='w', forma
 def mongo_update():
     #function for updating mongo entries using dict
     #DO: update the mango db after connecting
+    #### i am assuming you are accepting this through kafka
+    updated_data = []
+    with open('ias.json', 'r') as f:
+        data = json.load(f)
+        for item in data:
+            item['epoc_val'] = time.time()
+            updated_data.append(item)
+    #### till then you have data through kafka
+    ## there may be updated entries and new entries
+
+    ## inserting data in result as SubsystemName_Subsytemid
+    # where _ is split 
+    result = {}
+    for item in data:
+        key = f"{item['Subsystem_NAme']}_{item['Sub_system_Id']}"
+        value = item['epoc_val']
+        result[key] = value
+        
+    ####breaker##########33
+    pprint(result)
+    print()
+    with open('ias.json', 'w') as f:
+        json.dump(updated_data, f)
+    # t = t- 1
+    # if t < 0:
+    #     break
+    ####breaker##########33
+ 
+    # get collection from mongo db
+    old_doc = mycol.find_one()
+
+    # Iterate over new values and update if they are greater than the old ones
+    for key, value in result.items():
+        if key in old_values and value > old_values[key]:
+            mycol.update_one({'_id': old_values['_id']}, {'$set': {key: value}})
+        else:
+            old_doc[key] = value
+
+    # Check if there are any new key-value pairs in result that were not in old_values
+    new_pairs = set(result.items()) - set(old_values.items())
+    if new_pairs:
+        # Add new key-value pairs to old_doc
+        for key, value in new_pairs:
+            old_doc[key] = value
+        # Insert updated document back into collection
+        mycol.replace_one({'_id': old_doc['_id']}, old_doc, upsert=True)
+    # time.sleep(5)
     print("trying to update mongo")
     
 
@@ -81,3 +146,5 @@ for message in consumer:
     logging.info('The subsystem = {} with instance id = {} has a new entry'.format(messageContents[0],messageContents[1],messageContents[2]))
     print(dict)
 
+    ## my assumption is you are providing a code such as 
+    # SubsystemName_SubsytemId as key with splitter is underscore'_'
