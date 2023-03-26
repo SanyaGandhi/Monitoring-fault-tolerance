@@ -57,28 +57,28 @@ def mongo_update():
     print("trying to update mongo")
 
     # get collection from mongo db
-    old_doc = mycol.find_one()
-    print('old doc', old_doc)
+    old_values = mycol.find_one()
+    print('old doc', old_values)
     # Iterate over new values and update if they are greater than the old ones
-    for key, value in dict.items():
-        if key in old_doc and value > old_doc[key]:
-            mycol.update_one({'_id': old_doc['_id']}, {'$set': {key: value}})
-        else:
-            old_doc[key] = value
-            # x = mycol.insert_one(result)
+    if old_values is not None:
+        for key, value in dict.items():
+            if  key in old_values and value > old_values[key]:
+                mycol.update_one({'_id': old_values['_id']}, {'$set': {key: value}})
 
-            # print the object ID of the inserted document
-            # print(x.inserted_id)
-
-    # Check if there are any new key-value pairs in result that were not in old_values
-    new_pairs = set(dict.items()) - set(old_doc.items())
-    if new_pairs:
-        # Add new key-value pairs to old_doc
-        for key, value in new_pairs:
-            old_doc[key] = value
-        # Insert updated document back into collection
-        mycol.replace_one({'_id': old_doc['_id']}, old_doc, upsert=True)
-    # time.sleep(5)
+        new_pairs = set(dict.items()) - set(old_values.items())
+        if new_pairs:
+            # Add new key-value pairs to old_values
+            for key, value in new_pairs:
+                old_values[key] = value
+            # Insert updated document back into collection
+            
+            mycol.delete_one({'_id': old_values['_id']})
+            mycol.replace_one({'_id': old_values['_id']}, old_values, upsert=True)
+            # Delete the old document
+        # time.sleep(5)
+    else:
+        doc = mycol.insert_one(dict)
+        print("Inserted document with ID:", doc.inserted_id)
     print("Updated mongo")
 
 
@@ -115,7 +115,7 @@ def isalive():
                         # DO: delete the entry from mongo db
                         mycol.update_one({"_id": dict2["_id"]}, {
                                          "$unset": {k: ""}})
-
+    
             if int(sys.argv[1]) == 1:
                 global_file.globe = 2
             else:
