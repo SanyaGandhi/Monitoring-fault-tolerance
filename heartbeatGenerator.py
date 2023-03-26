@@ -32,4 +32,4 @@ def sendheartBeat(subsystemName, subsystemInstanceId) :
         sleep(30)
 
 #for testing purposes
-sendheartBeat('deployer3', '600') #comment out in actual implementation
+sendheartBeat('deployer4', '600') #comment out in actual implementation
