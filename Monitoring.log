@@ -1,0 +1,7 @@
+2023-04-09 16:41:45,666 - [CRITICAL] - monitoring.py:isalive:112 - The subsystem with instance id = deployer4:600 needs to be killed
+2023-04-09 16:41:45,985 - [CRITICAL] - monitoring.py:isalive:112 - The subsystem with instance id = deployer2:600 needs to be killed
+2023-04-09 16:41:46,288 - [CRITICAL] - monitoring.py:isalive:112 - The subsystem with instance id = sam_pat:600 needs to be killed
+2023-04-09 16:41:46,564 - [CRITICAL] - monitoring.py:isalive:112 - The subsystem with instance id = Temperature_456 needs to be killed
+2023-04-09 16:41:46,897 - [CRITICAL] - monitoring.py:isalive:112 - The subsystem with instance id = sanya_123456 needs to be killed
+2023-04-09 16:41:47,165 - [CRITICAL] - monitoring.py:isalive:112 - The subsystem with instance id = sampath_456 needs to be killed
+2023-04-09 16:41:47,465 - [CRITICAL] - monitoring.py:isalive:112 - The subsystem with instance id = lokesh_99998 needs to be killed

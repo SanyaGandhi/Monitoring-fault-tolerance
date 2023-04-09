@@ -40,7 +40,7 @@ notifyTime = 150
 killTime = 300
 
 # To connect to the kafka stream
-kafkaIp = "localhost"
+kafkaIp = "20.106.92.171"
 kafkaPortNo = "9092"
 kafkaTopicName = "heartbeatMonitoring"
 kafkaGroupId = "Monitoring"
@@ -58,7 +58,7 @@ def mongo_update():
 
     # get collection from mongo db
     old_values = mycol.find_one()
-    print('old doc', old_values)
+    # print('old doc', old_values)
     # Iterate over new values and update if they are greater than the old ones
     if old_values is not None:
         for key, value in dict.items():
@@ -84,16 +84,15 @@ def mongo_update():
 
 def isalive():
     while (True):
-        sleep(5)
+        sleep(60)
         mongo_update()
         if (int(sys.argv[1]) == global_file.globe):
             # ***********************************************
-            # DO: copy data from mongo db into a dictionary 'dict2'
-            dict2 = mycol.find_one()
+            # DO: copy data from mongo db into a dictionary 'allDbData'
+            allDbData = mycol.find_one()
+            print(allDbData)
             currentTime = time.time()
-            print('dicti-onary- 2-------------------',dict2)
-            print('I am here')
-            for k, vals in dict2.items():
+            for k, vals in allDbData.items():
                 # _id also created when we first time update
                 '''Performing an update on the path '_id'
                   would modify the immutable field '_id', 
@@ -104,16 +103,16 @@ def isalive():
                 if k != '_id':  # for ignoring above error
                     vals = float(vals)
                     diff = currentTime-vals
-                    if diff >= 15 and diff < 30:
+                    if diff >= notifyTime and diff < killTime:
                         logging.error(
                             'The subsystem with instance id = {} has been inactive since a long time'.format(k))
                         print('time to notify the platform admin')
-                    if vals-currentTime >= 45:
+                    if diff >= killTime:
                         logging.critical(
                             'The subsystem with instance id = {} needs to be killed'.format(k))
-                        print('time to notify kill the instance')
+                        print('time to notify & kill the instance')
                         # DO: delete the entry from mongo db
-                        mycol.update_one({"_id": dict2["_id"]}, {
+                        mycol.update_one({"_id": allDbData[k]}, {
                                          "$unset": {k: ""}})
     
             if int(sys.argv[1]) == 1:
