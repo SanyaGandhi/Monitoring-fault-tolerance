@@ -13,29 +13,22 @@ from time import sleep
 import json 
 import time
 
-def sendheartBeat(subsystemName, containerId, VMhost, VMuname, VMpswd) : 
+def sendheartBeat(subsystemName, subsystemInstanceId) : 
 
     kafkaIp = "20.106.92.171"
     kafkaPortNo = "9092"
-    kafkaTopicName='heartbeatMonitoring'
+    kafkaTopicName='testing'
     
     producer = KafkaProducer(bootstrap_servers=[kafkaIp+":"+kafkaPortNo],api_version=(0, 10, 1))
 
     while True:
         
         currentTime = time.time()
-        message=subsystemName+":"+containerId+":"+VMhost+":"+VMuname+":"+VMpswd+":"+str(currentTime)
+        message=subsystemName+":"+subsystemInstanceId+":"+str(currentTime)
         
         producer.send(kafkaTopicName, json.dumps(message).encode('utf-8'))
         
-        sleep(60)
+        sleep(10)
 
-# Give the following parameters:
-# 1.  Subsystem Name 
-# 2. Container Id
-# 3. VM Hostname 
-# 4. VM username 
-# 5. VM password
-
-# For testing purposes
-sendheartBeat('meow', '600','localhost', 'uname', 'pswd') #comment out in actual implementation
+#for testing purposes
+sendheartBeat('beta', '600') #comment out in actual implementation.....send random 2 parameters until docker thing is complete
