@@ -28,6 +28,7 @@ mydb = client["IAS_PROJECT"]
 # Create a new collection called 'Monitoring' in the 'IAS_PROJECT' database
 monitoringCollection = mydb["Monitoring"]
 ##########################################################
+doc_id = "6432c788b3e40bb758ac7426"
 
 
 ##########    VARIABLE DECLARATIONS    ##########
@@ -56,88 +57,82 @@ logging.basicConfig(level=logging.WARNING, filename=logFile, filemode='w',
 def mongoUpdate():
 
     print("Trying to update Mongo")
+    for subsystem in newDataDictionary:
+        #newDataDictinary contains new messages which have to be updated in mongo
+        
+        # define a filter for the subsystem/doc with the specified name
+        filter = {"name": subsystem["name"]}#LoadBalancer_2
 
-    # Define the _id value of the document to check 
-    # hardcoded this particular document
-    doc_id = "6432c5ccaf09d148f7cd6e1a"
+        #check whether this subsystem already exists
+        existing_subsystem = mycol.find_one(filter)
 
-    # Find the document with the specified _id value
-    old_values = monitoringCollection.find_one({"_id": doc_id})
-    
-    # Get colletion from MongoDb
-    # old_values = monitoringCollection.find_one()
-    
-    print('old doc', old_values)
-    
-    # Iterate over new values and update if they are greater than the old ones
-    if old_values is not None:
-        for key, value in newDataDictionary.items():
-            if  key in old_values and value > old_values[key]:
-                monitoringCollection.update_one({'_id': old_values['_id']}, {'$set': {key: value}})
-
-        new_pairs = set(newDataDictionary.items()) - set(old_values.items())
-        if new_pairs:
+        # if the subsystem exists, update its epoctime field
+        if existing_subsystem is not None:
             
-            # Add new key-value pairs to old_values
-            for key, value in new_pairs:
-                old_values[key] = value
+            update = {"$set": {"epoc_time": subsystem["epoc_time"]}}
+            mycol.update_one(filter, update)
+            print("Document updated.")
+        # if the document does not exist, insert a new subsystem as new document
+        else:
+            mycol.insert_one(subsystem)
+            print(f"New subsystem {subsystem['name']} document inserted.")
 
-            # Insert updated document back into collection          
-            monitoringCollection.delete_one({'_id': old_values['_id']})
-            
-            # Delete the old document
-            monitoringCollection.replace_one({'_id': old_values['_id']}, old_values, upsert=True)
-    else:
-        doc = monitoringCollection.insert_one(newDataDictionary)
-        print("Inserted document with ID:", doc.inserted_id)
-
-    print("Updated mongo")
+        
 
 
 def isalive():
     while (True):
-        sleep(10)
         mongoUpdate()
         if (int(sys.argv[1]) == global_file.globe):
             # ***********************************************
-            # DO: copy data from mongo db into a newDataDictionaryionary 'allDbData'
-            allDbData = monitoringCollection.find_one()
-            print(allDbData)
-            currentTime = time.time()
-            for k, vals in allDbData.items():
-                # _id also created when we first time update
-                '''Performing an update on the path '_id'
-                  would modify the immutable field '_id', 
-                  full error: {'index': 0, 'code': 66, 'errmsg':
-                    "Performing an update on the path '_id'
-                      would modify the immutable field '_id'"}
-                '''
-                print('******************************************************')
-                if k != '_id':  # for ignoring above error
-                    vals = float(vals)
-                    diff = currentTime-vals
-                    print(diff)
-                    if diff >= notifyTime and diff < killTime:
-                        logging.error(
-                            'The subsystem with instance id = {} has been inactive since a long time'.format(k))
-                        print('time to notify the platform admin')
-                    if diff >= killTime:
-                        logging.critical(
-                            'The subsystem with instance id = {} needs to be killed'.format(k))
-                        print('time to notify & kill the instance')
-                        # DO: delete the entry from mongo db
-                        doc_id=allDbData['_id']
-                        monitoringCollection.update_one({"_id": doc_id}, {
-                                         "$unset": {k: ""}})
-    
+            '''here notification and updation done on mongodb 
+            '''
+            #Notification when heartbeat time exceeds 15 and less than 30
+            # make filter on the basis of time difference
+            filter_for_notification = {"$expr": {"$and": [
+                            {"$gt": [{"$subtract": [float(current_time), {"$toDouble": "$epoc_time"}]}, 15]},
+                            {"$lt": [{"$subtract": [float(current_time), {"$toDouble": "$epoc_time"}]}, 30]}
+                        ]}}
+
+            # retrieve all subsystems document that matches the filter
+            subsystems_to_notify = mycol.find(filter_for_notification)
+
+            # initialize a list to store the names of documents/ subsystems
+            subsystem_names = []
+
+            # iterate over the documents and append names of the documents to the list
+            for subsystem in subsystems_to_notify:
+                subsystem_names.append(subsystem["name"])
+
+            # print the list of document names
+            print(f"Documents with name {subsystem_names} have a time difference between 10 and 20 seconds.")
+
+
+
+            # **********************************************************************8
+            #Iterate and remove
+            current_time = time.time()
+            
+            #make filter on the basis of time exceeding 
+            filter_to_kill = {"$expr": {"$gt": [{"$subtract": [float(current_time), {"$toDouble": "$epoc_time"}]}, 20]}}
+            
+            # retrieve all subsystems documents that match the filter
+            documents_to_remove = mycol.find(filter_to_kill)
+
+            # Delete all documents that match the filter
+            result = mycol.delete_many(filter_to_kill) 
+
+            # Print the number of documents removed
+            print(f"Removed {result.deleted_count} documents.")
+
             if int(sys.argv[1]) == 1:
                 global_file.globe = 2
             else:
                 global_file.globe = 1
 
 
-t = threading.Thread(target=isalive, args=[])
-t.start()
+# t = threading.Thread(target=isalive, args=[])
+# t.start()
 
 
 ##########    MONITORING SUBSYSTEM IMPLEMENTATION    ##########
@@ -147,6 +142,7 @@ consumer = KafkaConsumer(kafkaTopicName, group_id=kafkaGroupId,
                          bootstrap_servers=[kafkaIp+":"+kafkaPortNo])
 
 for message in consumer:
+    print(message)
     messageContents = message.value.decode('UTF-8').split(':')
     messageContents[0] = messageContents[0][1:]
     messageContents[2] = messageContents[2][:-1]
@@ -156,5 +152,4 @@ for message in consumer:
         messageContents[0], messageContents[1], messageContents[2]))
     print(newDataDictionary)
 
-    # my assumption is you are providing a code such as
-    # SubsystemName_SubsytemId as key with splitter is underscore'_'
+    
