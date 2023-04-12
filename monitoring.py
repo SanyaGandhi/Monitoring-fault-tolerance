@@ -82,6 +82,10 @@ def UpdateGlobalValue(value):
 
 
 def GetGlobalValue():
+
+    if "globalValue" not in mydb.list_collection_names():
+        return 1
+
     globalValueCollection = mydb["globalValue"] 
     document = globalValueCollection.find_one({"name": "global_val"})
     return int(document["value"])
@@ -118,6 +122,7 @@ def mongoUpdate():
 
 
 def isalive():
+
     while (True):
 
         sleep(20)
