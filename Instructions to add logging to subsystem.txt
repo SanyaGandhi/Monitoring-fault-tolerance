@@ -45,8 +45,8 @@ ERROR
 CRITICAL 
 
 
-Message Content : 
-Do NOT use : in your messages. 
+Message Content : IMPORTANT
+Do NOT use ':' in your messages. 
 
 
 Eg of messages: 

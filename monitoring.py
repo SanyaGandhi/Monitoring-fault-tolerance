@@ -65,9 +65,20 @@ producerForLogging = KafkaProducer(bootstrap_servers=[kafkaIp+":"+kafkaPortNo],a
 ##########    THREAD FUNCTION IMPLEMENTATION    ##########
 
 def UpdateGlobalValue(value):
-    globalValueCollection = mydb["globalValue"]
-    globalValueCollection.update_one({"name": "global_val"}, {"$set": {"value": value}})
 
+    global_val = {
+        "name" : "global_val",
+        "value" : value
+    }
+
+    globalValueCollection = mydb["globalValue"]
+
+    document = globalValueCollection.find_one({"name": "global_val"})
+    if document is None:
+        globalValueCollection.insert_one(global_val)
+    else :
+        globalValueCollection.update_one({"name": "global_val"}, {"$set": {"value": value}})
+       
 
 
 def GetGlobalValue():
