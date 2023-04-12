@@ -1,0 +1,54 @@
+How to add logging to your Subsystem : 
+
+Step 1 : Add all the necessary imports : 
+
+Code : 
+from kafka import KafkaProducer
+
+
+Step 2 : Setting up logging credentials : 
+
+Here kafkaIP = 20.106.92.171 when running on the VM that Meet created and kafkaPortNo = 9092. 
+To run on local machine use kafkaIP : 0.0.0.0
+
+Code : 
+loggingTopicName = Set to the name of topic. 
+producerForLogging = KafkaProducer(bootstrap_servers=[kafkaIp+":"+kafkaPortNo],api_version=(0, 10, 1))
+
+
+Kafka topics that will be create for each subsystem for logging: 
+
+For Monitoring : log-Monitoring-1, log-Monitoring-2
+For Fault Tolerance : log-FaultTolerance-1, log-FaultTolerance-2
+For Deployer : log-Deployer-1, log-Deployer-2
+For Sensor Manager : log-SensorManager-1, log-SensorManager-2
+For Load Balancer : log-LoadBalancer-1, log-LoadBalancer-2
+For Node Manager : log-NodeManager-1, log-NodeManager-2
+For Scheduler : log-Scheduler-1, log-Scheduler-2
+For App Controller : log-AppController-1, log-AppController-2
+
+Instructions for creating the same are present in IAS Learning Resouces (the last link in our group description)
+
+
+Step 3 : Writing logs messages. Add these two lines whenever you wish log something
+
+Code : 
+message = "<Log type>:" + "<Message Content>"
+producerForLogging.send(loggingTopicName, json.dumps(message).encode('utf-8'))
+
+
+Log types :
+DEBUG
+INFO
+WARNING
+ERROR
+CRITICAL 
+
+
+Message Content : 
+Do NOT use : in your messages. 
+
+
+Eg of messages: 
+1) message = "DEBUG:" + "Global value has been updated to {}".format(value)
+2) message = "CRITICAL:" + "The susbsystem - {}, having container id - {}, has be scheduled to be deleted.".format(subsystem["name"], subsystem["containerId"])

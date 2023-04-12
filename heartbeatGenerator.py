@@ -22,7 +22,7 @@ def sendheartBeat(subsystemName, containerId, VMhost, VMuname, VMpswd) :
     
     producer = KafkaProducer(bootstrap_servers=[kafkaIp+":"+kafkaPortNo],api_version=(0, 10, 1))
     
-    # i = 1
+    i = 1
 
     while True:
         
@@ -31,10 +31,10 @@ def sendheartBeat(subsystemName, containerId, VMhost, VMuname, VMpswd) :
         # print(message)
         producer.send(kafkaTopicName, json.dumps(message).encode('utf-8'))
         
-        # print("heartbeatsent",i)
-        # i += 1
+        print("heartbeatsent",i)
+        i += 1
 
-        sleep(60)
+        sleep(10)
 
 # Give the following parameters :
 # 1. Subsystem Name 
@@ -44,4 +44,4 @@ def sendheartBeat(subsystemName, containerId, VMhost, VMuname, VMpswd) :
 # 5. VM password
 
 # For testing purposes
-sendheartBeat("Sanya", "1",'localhost', 'uname', 'pswd') #comment out in actual implementation
+sendheartBeat("Paneer", "1",'localhost', 'uname', 'pswd') #comment out in actual implementation
