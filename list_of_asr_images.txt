@@ -1,0 +1,16 @@
+new_ad2e86df-d969-11ed-866f-0c96e61867ee--foo_12_04_2023_20_46_33_793238
+new_ad2e86df-d969-11ed-866f-0c96e61867ee--foo_12_04_2023_20_46_44_527053
+new_ad2e86df-d969-11ed-866f-0c96e61867ee--foo_12_04_2023_20_57_28_697969
+new_ad2e86df-d969-11ed-866f-0c96e61867ee--foo_12_04_2023_21_11_55_989239
+new_ad2e86df-d969-11ed-866f-0c96e61867ee--foo_13_04_2023_04_47_14_720037
+new_ad2e86df-d969-11ed-866f-0c96e61867ee--foo_13_04_2023_05_06_34_722482
+new_ad2e86df-d969-11ed-866f-0c96e61867ee--foo_13_04_2023_05_08_38_821746
+service_name_202304-1301-4236
+service_name_202304-1301-5028
+service_name_202304-1310-3035
+service_name_202304-1310-3134
+
+
+Important path formats:
+1. acr_image_path = acr_info['login_server'] + '/' + image_name:latest
+2. container_name = cnt_image_name:latest
