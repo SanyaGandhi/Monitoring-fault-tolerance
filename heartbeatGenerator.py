@@ -31,4 +31,4 @@ def sendheartBeat(subsystemName, subsystemInstanceId) :
         sleep(10)
 
 #for testing purposes
-sendheartBeat('beta', '600') #comment out in actual implementation.....send random 2 parameters until docker thing is complete
+sendheartBeat('alpha', '700') #comment out in actual implementation.....send random 2 parameters until docker thing is complete

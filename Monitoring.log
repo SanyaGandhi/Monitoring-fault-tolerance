@@ -1,0 +1,756 @@
+2023-04-09 20:03:00,399 - [WARNING] - client_async.py:_conn_state_change:331 - Node coordinator-0 connection failed -- refreshing metadata
+2023-04-09 20:03:00,400 - [WARNING] - base.py:coordinator_dead:716 - Marking the coordinator dead (node coordinator-0) for group Monitoring: Node Disconnected.
+2023-04-09 20:03:00,402 - [ERROR] - conn.py:_recv:1096 - <BrokerConnection node_id=0 host=20.106.92.171:9092 <connected> [IPv4 ('20.106.92.171', 9092)]>: socket disconnected
+2023-04-09 20:03:00,403 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:00,403 - [ERROR] - future.py:_call_backs:79 - Fetch to node 0 failed: KafkaConnectionError: socket disconnected
+2023-04-09 20:03:00,906 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:00,906 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:01,309 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:01,309 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:01,712 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:01,713 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:02,115 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:02,116 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:03,019 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.12023-04-09 20:03:03,019 - [ERROR] - conn.py:conn2023-04-09 20:03:03,020 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:03,896 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.12023-04-09 20:03:03,896 - [ERROR] - conn.py:conn2023-04-09 20:03:03,896 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:04,974 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.12023-04-09 20:03:05,211 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> r2023-04-09 20:03:06,338 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:06,339 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:07,184 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.12023-04-09 20:03:07,254 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> r2023-04-09 20:03:08,180 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.12023-04-09 20:03:08,239 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> r2023-04-09 20:03:09,294 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.12023-04-09 20:03:09,294 - [ERROR] - conn.py:conn2023-04-09 20:03:09,295 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:10,414 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:10,414 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:11,355 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.12023-04-09 20:03:11,433 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> r2023-04-09 20:03:12,434 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.12023-04-09 20:03:12,615 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> r2023-04-09 20:03:13,351 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.12023-04-09 20:03:13,608 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> r2023-04-09 20:03:14,535 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.12023-04-09 20:03:14,757 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> r2023-04-09 20:03:15,712 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:15,712 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:16,921 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:16,921 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:18,102 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:18,102 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:19,444 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:19,445 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:20,366 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:20,366 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:21,246 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:21,247 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:22,344 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:22,344 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:23,413 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:23,413 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:27,614 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:27,614 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:28,010 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:28,010 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:29,131 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:29,132 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:30,423 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:30,424 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:31,528 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:31,529 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:32,594 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:32,595 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:33,575 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:33,576 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:34,497 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:34,497 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:35,678 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:35,678 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:36,959 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:36,960 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:38,009 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:38,010 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:39,163 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:39,164 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:40,054 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:40,055 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:41,195 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:41,196 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:42,175 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:42,175 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:43,304 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:43,304 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:44,334 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:44,334 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:45,552 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:45,552 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:46,683 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:46,683 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:47,706 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:47,707 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:48,643 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:48,643 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:49,884 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:49,884 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:51,111 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:51,112 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:52,250 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:52,251 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:53,195 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:53,196 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:54,376 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:54,376 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:55,254 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:55,254 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:56,134 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:56,134 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:57,218 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:57,219 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:58,153 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:58,154 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:03:59,334 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:03:59,335 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:00,609 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:00,609 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:01,471 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:01,472 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:02,497 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:02,497 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:03,367 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:03,368 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:04,399 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:04,399 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:05,694 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:05,695 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:06,416 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:06,416 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:07,344 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:07,344 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:08,391 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:08,391 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:09,513 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:09,514 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:10,598 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:10,599 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:11,634 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:11,635 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:12,571 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:12,571 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:13,716 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:13,717 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:14,638 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:14,638 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:15,771 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:15,772 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:17,023 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:17,023 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:17,974 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:17,974 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:19,114 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:19,114 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:20,191 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:20,191 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:21,074 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:21,075 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:22,010 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:22,011 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:23,135 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:23,135 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:24,111 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:24,112 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:25,109 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:25,109 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:26,209 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:26,209 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:27,246 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:27,246 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:28,359 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:28,360 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:29,431 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:29,432 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:30,407 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:30,408 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:31,534 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:31,534 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:32,558 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:32,558 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:33,480 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:33,481 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:34,687 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:34,688 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:35,915 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:35,916 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:36,929 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:36,930 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:38,292 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:38,292 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:39,419 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:39,420 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:40,564 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:40,565 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:41,569 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:41,571 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:42,881 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:42,881 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:43,814 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:43,815 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:44,873 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:44,874 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:46,169 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:46,169 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:47,202 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:47,202 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:48,214 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:48,214 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:49,309 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:49,309 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:50,515 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:50,516 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:51,604 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:51,605 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:52,799 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:52,799 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:53,933 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:53,934 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:54,853 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:54,853 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:56,080 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:56,080 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:56,995 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:56,995 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:58,051 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:58,052 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:04:59,021 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:04:59,022 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:00,258 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:00,259 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:01,293 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:01,294 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:02,561 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:02,561 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:03,570 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:03,571 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:04,508 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:04,508 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:05,554 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:05,555 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:06,759 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:06,759 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:07,731 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:07,731 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:09,013 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:09,013 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:09,933 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:09,933 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:11,193 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:11,193 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:12,476 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:12,477 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:13,716 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:13,716 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:14,644 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:14,644 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:15,635 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:15,636 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:16,504 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:16,505 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:17,443 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:17,443 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:18,608 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:18,608 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:19,613 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:19,613 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:20,599 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:20,599 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:21,524 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:21,524 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:22,632 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:22,633 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:23,658 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:23,658 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:24,673 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:24,673 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:25,894 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:25,894 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:26,961 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:26,962 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:28,136 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:28,136 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:29,129 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:29,129 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:30,281 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:30,281 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:31,213 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:31,213 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:32,360 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:32,361 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:33,657 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:33,657 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:34,792 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:34,792 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:35,725 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:35,725 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:36,753 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:36,754 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:37,684 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:37,684 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:38,709 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:38,709 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:39,835 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:39,835 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:40,859 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:40,860 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:41,678 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:41,679 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:42,633 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:42,643 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:43,726 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:43,727 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:44,518 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:44,518 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:45,551 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:45,551 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:46,799 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:46,799 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:47,822 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:47,823 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:48,675 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:48,675 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:49,547 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:49,547 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:50,748 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:50,748 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:51,734 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:51,735 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:52,634 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:52,634 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:53,581 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:53,581 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:54,493 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:54,493 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:55,773 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:55,773 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:56,960 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:56,961 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:58,165 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:58,165 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:05:59,291 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:05:59,291 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:00,416 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:00,417 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:01,571 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:01,572 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:02,593 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:02,593 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:03,694 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:03,695 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:04,555 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:04,555 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:05,394 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:05,395 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:06,491 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:06,491 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:07,489 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:07,489 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:08,514 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:08,514 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:09,543 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:09,544 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:10,813 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:10,813 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:11,993 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:11,993 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:13,215 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:13,215 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:14,203 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:14,204 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:15,469 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:15,470 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:16,431 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:16,431 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:17,455 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:17,455 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:18,439 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:18,439 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:19,472 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:19,473 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:20,855 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:20,856 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:21,913 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:21,913 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:23,158 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:23,159 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:24,248 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:24,249 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:25,505 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:25,506 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:26,427 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:26,427 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:27,660 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:27,660 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:28,781 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:28,781 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:29,908 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:29,909 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:31,007 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:31,007 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:31,953 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:31,953 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:33,009 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:33,010 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:34,013 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:34,013 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:35,335 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:35,335 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:36,456 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:36,456 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:37,635 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:37,635 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:38,749 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:38,750 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:39,826 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:39,827 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:40,813 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:40,814 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:41,954 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:41,954 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:43,220 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:43,220 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:44,250 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:44,251 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:45,175 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:45,175 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:46,203 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:46,203 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:47,310 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:47,310 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:48,091 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:48,091 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:49,375 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:49,376 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:50,519 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:50,520 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:51,616 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:51,617 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:52,743 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:52,743 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:53,653 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:53,653 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:54,633 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:54,633 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:55,663 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:55,663 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:56,829 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:56,830 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:58,053 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:58,053 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:06:59,195 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:06:59,195 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:00,321 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:00,322 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:01,242 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:01,243 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:02,574 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:02,575 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:03,617 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:03,618 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:04,838 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:04,838 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:05,959 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:05,959 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:06,891 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:06,891 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:07,919 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:07,920 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:09,094 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:09,095 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:10,118 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:10,118 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:11,175 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:11,175 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:12,200 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:12,201 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:13,222 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:13,223 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:14,349 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:14,349 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:15,076 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:15,077 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:16,283 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:16,283 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:17,524 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:17,524 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:18,422 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:18,422 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:19,397 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:19,398 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:20,596 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:20,596 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:21,730 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:21,731 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:22,975 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:22,976 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:23,872 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:23,873 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:25,102 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:25,103 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:26,023 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:26,023 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:27,004 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:27,005 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:28,232 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:28,233 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:29,310 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:29,310 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:30,426 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:30,427 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:31,550 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:31,551 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:32,576 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:32,577 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:33,513 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:33,514 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:34,430 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:34,431 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:35,421 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:35,421 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:36,360 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:36,360 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:37,630 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:37,630 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:38,721 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:38,721 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:39,820 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:39,821 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:40,872 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:40,872 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:41,896 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:41,896 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:42,898 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:42,898 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:43,926 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:43,927 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:44,865 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:44,866 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:46,104 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:46,104 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:47,190 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:47,191 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:48,321 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:48,322 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:49,473 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:49,474 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:50,702 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:50,703 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:51,828 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:51,828 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:52,955 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:52,956 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:54,204 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:54,205 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:55,222 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:55,223 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:56,109 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:56,109 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:57,051 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:57,051 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:58,095 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:58,095 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:07:59,304 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:07:59,304 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:00,338 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:00,338 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:01,519 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:01,519 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:02,477 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:02,477 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:03,551 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:03,551 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:04,573 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:04,573 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:05,650 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:05,651 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:06,733 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:06,733 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:07,815 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:07,815 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:09,031 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:09,031 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:10,013 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:10,013 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:10,951 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:10,951 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:12,038 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:12,038 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:13,285 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:13,286 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:14,175 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:14,176 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:15,139 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:15,139 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:16,073 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:16,073 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:17,153 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:17,153 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:18,333 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:18,333 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:19,250 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:19,251 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:20,295 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:20,295 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:21,174 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:21,174 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:22,245 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:22,245 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:23,219 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:23,219 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:24,288 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:24,289 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:25,271 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:25,271 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:26,263 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:26,263 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:27,559 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:27,559 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:28,648 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:28,649 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:29,716 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:29,717 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:30,637 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:30,637 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:31,563 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:31,564 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:32,835 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:32,836 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:33,808 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:33,808 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:34,903 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:34,903 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:36,028 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:36,028 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:37,111 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:37,112 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:38,230 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:38,231 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:39,545 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:39,546 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:40,776 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:40,776 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:41,696 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:41,696 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:42,810 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:42,811 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:43,970 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:43,971 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:44,973 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:44,973 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:46,063 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:46,064 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:47,311 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:47,311 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:48,556 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:48,556 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:49,751 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:49,751 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:50,707 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:50,707 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:51,835 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:51,835 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:53,063 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:53,063 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:54,092 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:54,093 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:55,233 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:55,234 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:56,273 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:56,273 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:57,465 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:57,465 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:58,597 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:58,598 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:08:59,559 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:08:59,559 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:00,742 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:00,743 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:01,914 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:01,915 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:02,891 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:02,892 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:03,978 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:03,979 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:05,153 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:05,154 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:06,289 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:06,290 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:07,383 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:07,383 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:08,373 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:08,374 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:09,433 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:09,434 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:10,322 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:10,323 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:11,494 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:11,495 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:12,737 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:12,737 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:13,643 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:13,643 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:14,875 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:14,875 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:15,862 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:15,863 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:16,944 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:16,945 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:18,033 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:18,034 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:19,221 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:19,221 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:20,403 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:20,404 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:21,325 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:21,326 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:22,305 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:22,306 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:23,232 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:23,233 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:24,392 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:24,393 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:25,572 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:25,573 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:26,751 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:26,752 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:27,674 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:27,675 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:28,759 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:28,759 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:29,825 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:29,826 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:30,990 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:30,991 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:32,113 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:32,117 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:33,102 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:33,103 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:34,023 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:34,024 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:35,194 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:35,194 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:36,275 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:36,275 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:37,311 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:37,312 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:38,630 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:38,631 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:39,757 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:39,758 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:40,781 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:40,781 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:41,630 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:41,631 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:42,828 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:42,829 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:43,805 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:43,805 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:44,877 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:44,878 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+eturned error 111. Disconnecting.
+2023-04-09 20:09:40,167 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:41,252 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:41,253 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:42,232 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:42,233 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:43,239 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:43,240 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:44,160 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:44,161 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:45,491 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:45,491 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
+2023-04-09 20:09:46,516 - [ERROR] - conn.py:connect:419 - Connect attempt to <BrokerConnection node_id=0 host=20.106.92.171:9092 <connecting> [IPv4 ('20.106.92.171', 9092)]> returned error 111. Disconnecting.
+2023-04-09 20:09:46,517 - [WARNING] - client_async.py:_conn_state_change:331 - Node 0 connection failed -- refreshing metadata
