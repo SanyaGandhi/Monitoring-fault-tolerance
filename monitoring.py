@@ -28,7 +28,7 @@ from pprint import pprint
 import pymongo
 import json
 
-# Connect to python applicaiton
+# Connect to mongodb server
 client = pymongo.MongoClient("mongodb+srv://test:test@cluster0.xcykxcz.mongodb.net/?retryWrites=true&w=majority")
 
 # Creating a new database
