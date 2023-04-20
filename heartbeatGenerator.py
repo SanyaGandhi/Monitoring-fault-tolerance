@@ -12,32 +12,62 @@ from kafka import KafkaProducer
 from time import sleep
 import json 
 import time
+import threading
 
-def sendheartBeat(subsystemName, containerId, VMhost, VMuname, VMpswd) : 
 
-    # kafkaIp = "20.106.92.171"
-    kafkaIp = "0.0.0.0"
-    kafkaPortNo = "9092"
-    kafkaTopicName='heartbeatMonitoring'
+# All variable declaration.
+# kafkaIp = "20.106.92.171"
+kafkaIp = "0.0.0.0"
+kafkaPortNo = "9092"
+
+
+
+def sendheartBeat(kafkaTopicName, containerName, nodeId) : 
     
     producer = KafkaProducer(bootstrap_servers=[kafkaIp+":"+kafkaPortNo],api_version=(0, 10, 1))
     
-    i = 1
+    heartbeat = {
+        "container_name" : containerName,
+        "node_name" : nodeId,
+        "current_time" : time.time()
+    }
+
+    # i = 1
 
     while True:
-        
-        currentTime = time.time()
-        message=str(subsystemName)+":"+str(containerId)+":"+str(VMhost)+":"+str(VMuname)+":"+str(VMpswd)+":"+str(currentTime)
-        # print(message)
-        producer.send(kafkaTopicName, json.dumps(message).encode('utf-8'))
-        
-        print("heartbeatsent",i)
-        i += 1
+        try:
+            producer.send(kafkaTopicName, json.dumps(heartbeat).encode('utf-8'))
+            # print("heartbeatsent",i)
+            # i += 1
+        except:
+            pass
 
-        sleep(10)
+        sleep(60)
 
-#for testing purposes
-sendheartBeat('beta', '600') #comment out in actual implementation.....send random 2 parameters until docker thing is complete
 
-# For testing purposes
-sendheartBeat("Paneer", "1",'localhost', 'uname', 'pswd') #comment out in actual implementation
+# Give the following parameters :
+
+# 1. kafka Topic Name : 
+
+# Available topic Names are : 
+# For Monitoring : heartbeat-monitoring
+# For Fault Tolerance : heartbeat-fault-tolerance
+# For Deployer : heartbeat-deployer
+# For Sensor Manager : heartbeat-sensor-manager
+# For Load Balancer : heartbeat-load-balancer
+# For Node Manager : heartbeat-node-manager
+# For Scheduler : heartbeat-scheduler
+# For App Controller : heartbeat-validator-workflow
+# For Application Developers : heartbeat-developer
+
+# 2. Container Name 
+
+# 3. Node Id
+
+
+
+# For testing purposes. Kindly comment out in actual implementation
+t1 = threading.Thread(target=sendheartBeat, args=("heartbeat-monitoring", "Container for Monitoring", "1", ))
+t2 = threading.Thread(target=sendheartBeat, args=("heartbeat-deployer", "Container for Deployer", "1", ))
+t1.start()
+t2.start()
